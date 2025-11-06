@@ -22,7 +22,7 @@
 
 import Foundation
 
-internal class Animator: DisplayLink {
+public class Animator: DisplayLink {
     static let shared = Animator()
 
     private var animations = Set<Animation>()

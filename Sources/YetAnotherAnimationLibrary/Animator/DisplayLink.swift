@@ -25,7 +25,7 @@ import UIKit
 private let minDeltaTime = 1.0 / 30.0
 
 /// The `update(dt:)` function will be called on every screen refresh if started
-internal class DisplayLink: NSObject {
+public class DisplayLink: NSObject {
     private var displayLink: CADisplayLink?
     private var lastUpdateTime: TimeInterval = 0
     internal var isRunning: Bool {
